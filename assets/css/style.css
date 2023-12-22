@@ -1,0 +1,188 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.slide{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 2252vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.culture-section{
+    margin-top: 30px;
+}
+
+.culture-section .container{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-left: 0;
+    border-right: 0;
+}
+
+.business-section{
+    margin-top: 30px;
+}
+
+.business-section .container{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-left: 0;
+    border-right: 0;
+}
+
+#posts{
+    margin-top: 10px;
+}
+
+.one{
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+.two{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.three{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.four{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    padding-right: 90px;
+    padding-left: 10px;
+}
+
+.five{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.six{
+    width: 100vw;
+    background-color: #faf7f8;
+    padding-left: 10px;
+}
+
+.seven{
+    width: 100vw;
+}
+
+.eight{
+    width: 110vw;
+    padding-left: 10px;
+}
+
+.nine{
+    width: 100vw;
+}
+
+.ten{
+    width: 110vw;
+    padding-left: 10px;
+}
+
+.eleven{
+    width: 100vw;
+}
+
+.twele{
+    width: 110vw;
+    padding-left: 10px;
+}
+
+.thirteen{
+    width: 100vw;
+}
+
+.fourteen{
+    width: 110vw;
+    padding-left: 10px;
+}
+
+.fifteen{
+    width: 100vw;
+}
+
+.sixteen{
+    width: 110vw;
+    padding-left: 10px;
+}
+
+.seventeen{
+    width: 100vw;
+}
+
+.eighteen{
+    width: 180vw;
+}
+
+
+
+.twenty{
+    width: 150vw;
+}
+
+.outer-wrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+  */
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .verticalText{
+    margin: 0%;
+    width: 8vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e2e2;
+  }
+
+  .title{
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    color: #000000b1;
+    rotate: 180deg;
+    letter-spacing: 1rem;
+    font-family: monospac
+  }
+
+
+
